@@ -128,7 +128,7 @@ public class WifiApManager {
 	 * @param onlyReachables {@code false} if the list should contain unreachable (probably disconnected) clients, {@code true} otherwise
 	 * @param finishListener, Interface called when the scan method finishes
 	 */
-	public void getClientList(boolean onlyReachables, FinishScanListener finishListner) {
+	public void getClientList(boolean onlyReachables, FinishScanListener finishListener) {
 		getClientList(onlyReachables, 300, finishListner );
 	}
 
